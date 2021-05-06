@@ -14,8 +14,10 @@ router.get("/", function (req, res, next) {
 router.get("/my-dev-squad", function (req, res, next) {
   res.render("hackers", {users});
 });
+
 router.get("/add-new-ironhacker", function (req, res, next) {
-  res.render("new-hacker", {users});
+  res.render("formUser");
 });
+
 
 module.exports = router;
