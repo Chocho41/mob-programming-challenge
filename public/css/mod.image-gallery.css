@@ -1,0 +1,15 @@
+.box-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+img{
+    width: 32%;
+    height: 40%;
+    /* margin: 10% 80%; */
+    border: 2px solid black;
+    border-radius: 2em;
+    /* display: flexbox;
+    justify-content: center; */
+}
