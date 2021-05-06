@@ -46,5 +46,6 @@ app.use(function(err, req, res, next) {
 });
 
 console.log("hello World!");
+console.log("http://localhost:" + process.env.PORT);
 
 module.exports = app;
